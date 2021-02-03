@@ -19,6 +19,9 @@ a {
   margin: 0px 10px;
   padding: 10px 20px;
 }
+.list-inline li:active {
+  background-color: #B2E5FC;
+}
 
 header {
   text-align: center;
@@ -34,7 +37,6 @@ main {
 .container80 {
   margin: 0 auto;
   width: 80%;
-  height: 500px;
 }
 
 .items {
@@ -47,4 +49,9 @@ main {
 }
 .items .card img {
   max-width: 100%;
+}
+
+.footer-top section {
+  display: inline-block;
+  width: calc(100% / 3 - 10px);
 }
