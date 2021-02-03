@@ -53,8 +53,10 @@
             @endforeach
           </div>
         </div>
-
       </main>
+      <footer>
+        <img src="{{asset("img/footer-montagne-bottom.jpg")}}" alt="Montagne">
+      </footer>
 
     </body>
 </html>
