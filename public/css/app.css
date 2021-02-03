@@ -24,3 +24,21 @@ header {
   text-align: center;
   padding-top: 30px;
 }
+
+.container80 {
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.items .card {
+  width: calc(100% / 3 - 10px);
+  margin: 5px;
+}
+.items .card img {
+  max-width: 100%;
+}

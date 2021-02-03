@@ -1,4 +1,18 @@
-main {
+.container80 {
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+}
 
+.items {
+  display: flex;
+  flex-wrap: wrap;
 
+    .card {
+      width: calc(100% / 3 - 10px);
+      margin: 5px;
+        img {
+          max-width: 100%;
+        }
+    }
 }
