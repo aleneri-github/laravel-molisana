@@ -6,7 +6,7 @@ main {
 
 .container80 {
   margin: 0 auto;
-  width: 80%;  
+  width: 80%;
 }
 
 .items {
@@ -14,10 +14,24 @@ main {
   flex-wrap: wrap;
 
     .card {
+      position: relative;
       width: calc(100% / 3 - 10px);
       margin: 5px;
         img {
           max-width: 100%;
         }
+        .overlay {
+          position: absolute;
+          display: none;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba($activeColor, 0.6);
+        }
     }
 }
+
+    .card:hover .overlay {
+      display: block;
+    }
