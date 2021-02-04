@@ -8,20 +8,9 @@
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
-      <header>
-        <img src="{{asset("img/marchio-sito-test.png")}}" alt="La Molisana">
-        <ul class="list-inline">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Prodotti</a>
-          </li>
-          <li>
-            <a href="#">News</a>
-          </li>
-        </ul>
-      </header>
+
+      @include('partials.header')
+
       <main>
         <div class="container80">
           <h2>LE LUNGHE</h2>
@@ -63,26 +52,9 @@
           </div>
         </div>
       </main>
-      <footer>
-        <div class="footer-top">
-          <div class="container80">
-          <section>
-            <img src="{{asset("img/marchio-sito-test.png")}}" alt="La Molisana">
-          </section>
-          <section>
-          </section>
-          <section>
-          </section>
 
+      @include('partials.footer')
 
-          </div>
-
-        </div>
-        <div class="footer-bottom">
-          <img src="{{asset("img/footer-montagne-bottom.jpg")}}" alt="Montagne">
-
-        </div>
-      </footer>
 
     </body>
 </html>
