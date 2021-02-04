@@ -29,7 +29,9 @@
             @foreach ($lunghe as $pasta)
             <div class="card">
               <img src="{{ $pasta['src'] }}" alt="{{ $pasta['titolo'] }}">
-              <div class="overlay"></div>
+              <div class="overlay">
+                <h3><a href="#">{{ $pasta['titolo']}}</a></h3>
+              </div>
             </div>
             @endforeach
           </div>
@@ -40,7 +42,9 @@
             @foreach ($corte as $pasta)
             <div class="card">
               <img src="{{ $pasta['src'] }}" alt="{{ $pasta['titolo'] }}">
-              <div class="overlay"></div>
+              <div class="overlay">
+                <h3><a href="#">{{ $pasta['titolo']}}</a></h3>
+              </div>
             </div>
             @endforeach
           </div>
@@ -51,7 +55,9 @@
             @foreach ($cortissime as $pasta)
             <div class="card">
               <img src="{{ $pasta['src'] }}" alt="{{ $pasta['titolo'] }}">
-              <div class="overlay"></div>
+              <div class="overlay">
+                <h3><a href="#">{{ $pasta['titolo']}}</a></h3>
+              </div>
             </div>
             @endforeach
           </div>
