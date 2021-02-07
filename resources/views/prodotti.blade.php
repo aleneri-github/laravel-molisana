@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>PAGINA DEI PRODOTTI</h1>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Molisana</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    </head>
+    <body>
 
-  </body>
+      @include('partials.header')
+      <div class="container80">
+        <h1>PRODOTTI</h1>
+    
+      </div>
+
+      @include('partials.footer')
+
+
+    </body>
 </html>
