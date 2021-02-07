@@ -86,6 +86,24 @@ main {
   float: left;
   width: calc(100% / 3);
   padding-top: 40px;
+  color: #848D9B;
+}
+.footer-top .container80 h4 {
+  font-size: 25px;
+  margin-left: 55px;
+  margin-bottom: 30px;
+}
+.footer-top .container80 ul {
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+.footer-top .container80 ul li {
+  list-style: none;
+  padding: 5px;
+}
+.footer-top .container80 a {
+  color: #848D9B;
+  font-size: 20px;
 }
 
 .footer-bottom img {
